@@ -16,10 +16,5 @@
 }
 
 
-+ (UIImage *)loadImage
-{
-    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"lufy.png" ofType:nil inDirectory:@"LibStatic.bundle"];
-    return [UIImage imageWithContentsOfFile:imagePath];
-}
 
 @end

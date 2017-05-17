@@ -7,13 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
 
 @interface Tool : NSObject
 
 + (NSInteger)sumNum1:(NSInteger)num1 num2:(NSInteger)num2;
-
-+ (UIImage *)loadImage;
 
 @end
